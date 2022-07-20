@@ -15,15 +15,15 @@
 import React from "react";
 
 function EyesOnMe(){
-    function dealWithFocus(){
+    function handleFocus(){
         console.log("Good!");
     }
 
-function dealWithBlur(){
+function handleBlur(){
     console.log("Hey! Eyes on me!");
 }
     return(
-        <button onFocus={dealWithFocus} onBlur={dealWithBlur}>Eyes on me</button>
+        <button onFocus={handleFocus} onBlur={handleBlur}>Eyes on me</button>
     );
 }
 
