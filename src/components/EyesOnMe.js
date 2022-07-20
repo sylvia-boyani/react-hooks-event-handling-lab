@@ -12,7 +12,6 @@
 // />
 // )
 // }
-
 import React from "react";
 
 function EyesOnMe(){
@@ -27,3 +26,5 @@ function dealWithBlur(){
         <button onFocus={dealWithFocus} onBlur={dealWithBlur}>Eyes on me</button>
     );
 }
+
+export default EyesOnMe 
